@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+
+.tete{
+    width: 100%;
+    height: 600px ;
+    background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2019/08/881666ea-f7aa-4f70-ac8a-e7384ec88fd6/1136_nature_gettyimages-953168856.webp");
+    background-position: 90% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

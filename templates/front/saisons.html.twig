@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+{# {% block body %}{% endblock %} #}
+
+{% block body %}
+
+<div class="container">
+    <div class="col tete">
+        <div class="row">
+            <h1 class="text-center">{{ saison.nom }}</h1>
+        </div>
+        <div class="col-md-3 mx-auto ">
+            <div class="row">
+                <img src="{{ saison.photo }}" width="300" height="150">
+            </div>
+            <div class="row ">
+                <p class="text-center">{{ saison.message }}</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a class="text-dark  btn btn-success"  href="{{ path('app_front')}}">Retour a l'accueil</a>
+        </div>
+    </div> 
+    
+</div>
+
+{% endblock %}
